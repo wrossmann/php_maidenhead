@@ -25,3 +25,16 @@ foreach( [-1,0,1] as $x ) {
     }
 }
 ```
+
+Output:
+
+```
+string(10) "JO22OI60JD"
+string(10) "JO22OI60JE"
+string(10) "JO22OI60JF"
+string(10) "JO22OI60KD"
+string(10) "JO22OI60KF"
+string(10) "JO22OI60LD"
+string(10) "JO22OI60LE"
+string(10) "JO22OI60LF"
+```
