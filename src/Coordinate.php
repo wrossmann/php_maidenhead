@@ -81,6 +81,10 @@ class Coordinate {
         }
         return $output;
     }
+
+    public function __toString() {
+        return $this->toString();
+    }
     
     protected function rollover($value, $base) {
         if( $value < 0 ) {
